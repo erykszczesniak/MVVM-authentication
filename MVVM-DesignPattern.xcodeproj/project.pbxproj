@@ -41,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A94E3FC24E0211600EE06DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EF6B923AF4B340095CF35 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A94E3FD24E0212300EE06DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC64411C23AE13C1004A063A /* ViewController.swift */,
+				DC64411E23AE13C1004A063A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A94E3FE24E0213100EE06DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EF6BB23AF4B820095CF35 /* AuthenticationVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DC64410C23AE13C0004A063A = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +85,11 @@
 		DC64411723AE13C0004A063A /* MVVM-DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7A94E3FE24E0213100EE06DE /* ViewModel */,
+				7A94E3FD24E0212300EE06DE /* View */,
+				7A94E3FC24E0211600EE06DE /* Model */,
 				DC64411823AE13C0004A063A /* AppDelegate.swift */,
 				DC64411A23AE13C0004A063A /* SceneDelegate.swift */,
-				DC64411C23AE13C1004A063A /* ViewController.swift */,
-				DC9EF6BB23AF4B820095CF35 /* AuthenticationVM.swift */,
-				DC9EF6B923AF4B340095CF35 /* User.swift */,
-				DC64411E23AE13C1004A063A /* Main.storyboard */,
 				DC64412123AE13C2004A063A /* Assets.xcassets */,
 				DC64412323AE13C2004A063A /* LaunchScreen.storyboard */,
 				DC64412623AE13C2004A063A /* Info.plist */,
